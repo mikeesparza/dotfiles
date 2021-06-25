@@ -1,5 +1,5 @@
 # HTB VPN Connection 
-alias letshtb='sudo openvpn /opt/htb/shaqnatomy.ovpn'
+alias letshtb='sudo openvpn /opt/htb/connect/shaqnatomy.ovpn'
 
 # Tryhackme VPN Connection 
 alias letsthm='sudo openvpn /opt/thm/connect/mike.esparza.ovpn'
