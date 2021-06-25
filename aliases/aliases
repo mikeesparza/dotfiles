@@ -1,0 +1,28 @@
+# HTB VPN Connection 
+alias letshtb='openvpn /opt/htb/shaqnatomy.ovpn'
+
+# LS -LAH replacement 
+alias ll='ls -lah'
+
+# SimpleHTTPServer spinup 
+alias letshost='python -m SimpleHTTPServer'
+
+# NMAP Function for easier scanning
+quickscan() { nmap -sC -sV -Pn "$1"; }
+
+# NMAP Function for ALL PORT Scans
+allscan() { nmap -p- -sC -sV -Pn "$1";  }
+
+# TMUX HTB New Session 
+letsworkon() { tmux new -s "$1"; }
+
+# Update Linux
+alias letsupdate='apt update && apt upgrade -y && apt autoremove -y'
+
+alias src='source ~/.zshrc'
+alias h="cd ~"
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+
