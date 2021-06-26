@@ -20,7 +20,7 @@ allscan() { nmap -p- -sC -sV -Pn "$1";  }
 letsworkon() { tmux new -s "$1"; }
 
 # Update Linux
-alias letsupdate='apt update && apt upgrade -y && apt autoremove -y'
+alias letsupdate='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
 
 alias src='source ~/.zshrc'
 alias h="cd ~"
