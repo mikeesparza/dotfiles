@@ -19,6 +19,9 @@ allscan() { nmap -p- -sC -sV -Pn "$1";  }
 # TMUX HTB New Session 
 letsworkon() { tmux new -s "$1"; }
 
+# Update Ludus 
+alias updateludus="curl -s https://ludus.cloud/install | bash"
+
 # Update Linux
 alias letsupdate='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
 
